@@ -1,3 +1,5 @@
+# React AntDesign Typescript Boilerplate
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -42,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Directory layout
+
+```
+.
+├── public/                 <-- Static assets
+├── src/                    <-- Application components and source code
+```
+
+Inside `src` folder we have:
+
+- **components:** Reusable UI components used in the main pages
+- **pages:** Main pages the users see on the web application
+- **routes:** Apps routes
+- **styles:** CSS styles
