@@ -55,6 +55,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Inside `src` folder we have:
 
+- **api:** API URL o base url
 - **components:** Reusable UI components used in the main pages
 - **pages:** Main pages the users see on the web application
 - **routes:** Apps routes

@@ -5,7 +5,7 @@ import { Greeting } from '../components';
 export function Home() {
   return (
     <div>
-      <Button>Ant design works</Button>
+      <Button shape='round'>Ant design works</Button>
       <Greeting />
     </div>
   );
