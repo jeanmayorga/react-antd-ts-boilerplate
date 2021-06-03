@@ -1,4 +1,55 @@
 @import '~antd/dist/antd.less';
+@import (css)
+  url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
 body {
-  background: #eee;
+  background: #f4f5f8;
+  font-family: 'Nunito', serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+  line-height: 1;
+}
+.hLine {
+  background: #237ed5;
+  border-radius: 50px;
+  height: 4px;
+  width: 83px;
+  margin: 1em 0;
+}
+p {
+  font-size: 15px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.ant-select-selector {
+  background: #f7f7f7 !important;
+  border-radius: 20px !important;
+}
+.ant-input-affix-wrapper {
+  background: #f7f7f7;
+  border-radius: 20px;
+  .ant-input {
+    background: transparent;
+  }
+}
+.ant-input {
+  border-radius: 32px !important;
+}
+.ant-input-affix-wrapper {
+  border-radius: 32px !important;
+  .ant-input {
+    border-radius: none !important;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
 }
