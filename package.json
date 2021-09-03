@@ -16,7 +16,7 @@
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.5",
     "antd": "^4.5.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chart.js": "^2.9.3",
     "craco-less": "^1.17.0",
     "date-fns": "^2.15.0",
